@@ -1,0 +1,87 @@
+body {
+    
+        background-image: url("./8129c47eea4ca2923d834a0daf316d72.jpg") !important; 
+        font-family:'Courier New', Courier, monospace !important;
+        /*background-color: black !important; */
+        background-size: cover !important;
+        background-repeat: repeat;
+        background-position: center !important;
+        max-height: 100vh;
+        
+      
+        
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white !important;
+    border: none;
+}
+
+.card{
+    background-color: transparent !important;
+        /* Remove fundo branco */
+    padding: 20px;
+        border-radius: 10px;
+        color: white;
+        border: none;        
+}
+
+.card-body{
+        padding: 20px;
+        border-radius: 10px;
+        color: white !important;
+        border: none;
+}
+
+.card-tittle{
+    color: white !important;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white !important;
+}
+
+.november-title {
+    color: #ffffff;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 colunas - 7 dias semana */
+    grid-gap: 10px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.calendar-day {
+    position: relative;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.calendar-day .date {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.calendar-day img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+
