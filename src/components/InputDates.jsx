@@ -1,4 +1,5 @@
 
+
 function InputDates({ searchDate, setSearchDate, handleSearch, clearSearch }) { //recebe props da função app (funçao pai)
   // SearchDate - data atualmente selecionada 
   // setSearchDate atualiza a data na componente pai - app
@@ -9,8 +10,8 @@ function InputDates({ searchDate, setSearchDate, handleSearch, clearSearch }) { 
       <input
         type="date" //campo de entrada especifico para datas
         className="form-control me-2 w-25" //estilo input bootstrap
-        value={searchDate} // Define o valor atual do input com o estado searchDate
-        onChange={(e) => setSearchDate(e.target.value)}  //Atualiza o estado searchDate com o valor selecionado pelo utilizador 
+        value={searchDate}
+        onChange={(e) => setSearchDate(e.target.value)} //Atualiza o estado searchDate com o valor selecionado pelo utilizador 
         // on change (event handler) evento que dispara sempre que o input é alterado, (e) é o evento (objeto syntheticEvent do react)
         //e.target referece ao elemento que fez disparar o evento - input 
         //.value - valor que recebe
@@ -26,4 +27,5 @@ function InputDates({ searchDate, setSearchDate, handleSearch, clearSearch }) { 
 }
 
 export default InputDates;
+
 
