@@ -10,7 +10,7 @@ function App() {
   const [searchResult, setSearchResult] = useState(null); // Resultados da pesquisa por data
   const apiKey = "MkuXZxd1PmVf924aTmCRLCguL78DWubV1hPqWqUh";
   
-  const clearSearch = () => {
+  //const clearSearch = () => {
     setSearchDate(""); // Limpa o valor do input
     setSearchResult(null); // Reseta o resultado da pesquisa
   };
